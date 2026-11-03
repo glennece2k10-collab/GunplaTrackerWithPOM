@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { RegisterPage } from '../pages/Register';
-import { getTestData } from '../utils/TestData';
+import { getTestData } from '../utils/testData';
 
 test('Register and Login', async ({ page }) => {
 

@@ -33,6 +33,7 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
    // baseURL: process.env.BASE_URL,
+    baseURL: process.env.BASE_URL || 'https://glennece2k10-collab.github.io/gunpla-tracker/',
     trace: 'on-first-retry',
   },
 
